@@ -1,0 +1,317 @@
+/*
+ *		Author: Steven Chen
+ *		Date: Dec 2015
+ */
+
+/* CSS Reset */
+ul,li {
+	list-style:none;
+}
+textarea, input {
+	resize:none;
+	outline-color:rgb(100,195,200);
+	border:none;
+}
+body {
+	margin:0; padding:0;
+}
+.container {
+	padding-left:0;
+	padding-right:0;
+}
+
+/* FOOTER */
+.footer-padding {
+	height:50px;
+	background:#FFF;
+}
+#breadcrumb-li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: " ";
+}
+
+@media ( min-width:1170px )
+{
+    .xl-hide
+    {
+        display:none;
+    }
+    .header_top_panel,
+    .header_bottom_panel,
+    .footer_panel,
+    .copyright_panel
+    {
+        width:1170px; margin:0 auto;
+    }
+    .header_panel_top_outer
+    {
+        /*padding:20px 0 35px 0 !important;*/
+    }
+    .header_panel_bottom_outer
+    {
+        /*padding:20px 0 !important;*/
+    }
+    /*
+     * 顶部导航
+     */
+    .home_icon_i
+    {
+        color:#FFF !important;
+        font-size: 20px;
+        line-height:20px;
+    }
+    .navbar-nav > li.dropdown > a
+    {
+        color:#FFF !important;
+        background:#434343 !important;
+        font-size:16px;
+        line-height:20px;
+    }
+    .navbar-nav > li.dropdown > a:hover
+    {
+        background:#00a0e9 !important;
+    }
+    .xerp_drop_down_ul > li > a
+    {
+        color:#FFF !important;
+        font-size:18px;
+    }
+}
+@media ( max-width:1169px )
+{
+    .xl-show
+    {
+        display:none;
+    }
+    .header_top_panel,
+    .header_bottom_panel,
+    .footer_panel,
+    .copyright_panel
+    {
+        width:100%; margin:0 auto;
+    }
+    .header_panel_top_outer,
+    .header_panel_bottom_outer
+    {
+        /*padding:10px 0 !important;*/
+    }
+    /*
+     * 顶部导航
+     */
+    .home_icon_i
+    {
+        color:#FFF !important;
+        font-size: 20px;
+        line-height:20px;
+    }
+    .navbar-nav > li.dropdown > a
+    {
+        color:#FFF !important;
+        background:#434343 !important;
+        font-size:16px;
+        line-height:20px;
+    }
+    .dropdown-menu > li > a,
+    .xerp_drop_down_ul > li > a
+    {
+        color:#FFF !important;
+        font-size:12px;
+    }
+    .fb_iframe_widget
+    {
+        text-align:center;
+    }
+}
+@media ( min-width: 992px )
+{
+    .ml-hide
+    {
+        display:none;
+    }
+}
+@media ( max-width: 991px )
+{
+    .ml-show
+    {
+        display:none;
+    }
+}
+@media ( min-width:768px )
+{
+    .lg-hide
+    {
+        display:none;
+    }
+    .right-header
+    {
+        text-align:right;
+    }
+}
+@media ( max-width:767px )
+{
+    .lg-show
+    {
+        display:none;
+    }
+}
+@media ( min-width:551px )
+{
+    .xs-show
+    {
+        display:none;
+    }
+    .social_media_div > a
+    {
+        font-size:50px !important;
+    }
+    .subscriber_div > input,
+    .search_div > input
+    {
+        width:250px;
+    }
+    .search_div
+    {
+        float:right;
+    }
+    .copyright_panel
+    {
+        font-size:18px;
+    }
+}
+@media ( max-width:550px )
+{
+    .xs-hide
+    {
+        display:none;
+    }
+    .xs-show-inline
+    {
+        display:inline;
+    }
+    .logo_img
+    {
+        width:100%;
+    }
+    .col-md-12,
+    .col-md-6,
+    .col-md-2
+    {
+        padding:0 !important;
+    }
+    .subscriber_div > input,
+    .search_div > input
+    {
+        width:86%;
+    }
+    .subscriber_div > button,
+    .search_div > button
+    {
+        width:14%;
+    }
+    .login_text_div > h4
+    {
+        font-size:12px;
+        font-weight:bold;
+        text-align:center;
+    }
+    .social_media_div
+    {
+        text-align:center;
+        font-size:30px;
+    }
+    .wishlist_shopping_cart_div
+    {
+        text-align:center;
+    }
+    .wishlist_shopping_cart_inner_div
+    {
+        padding:0 20%;
+    }
+    .footer_panel > ul > li > h3
+    {
+        font-size:14px;
+        font-weight: bold;
+    }
+    .footer_panel,
+    {
+        font-size:12px;
+    }
+}
+
+.wishlist_shopping_cart_inner_badge_span
+{
+    height:30px; width:30px; border-radius:30px; text-align:center; background:#434343; line-height:34px; padding:6px 8px; font-size:16px; font-weight:bold;
+}
+
+.social_media_div > a
+{
+    color:#FFF;
+    text-decoration:none;
+}
+
+/*
+ * 顶部导航条
+ */
+.navbar
+{
+    margin-bottom:0;
+}
+.navbar-default
+{
+    background:none;
+    border:none;
+}
+.navbar-default .navbar-toggle .icon-bar
+{
+    background-color:#00a0e9;
+}
+.navbar-default .navbar-toggle
+{
+    border-color:#00a0e9;
+}
+/** 导航首字母大写
+*/
+.navbar-nav > li.dropdown > a:first-letter,
+.dropdown-menu > li > a:first-letter
+{
+    text-transform: uppercase;
+}
+.navbar-nav > li > .dropdown-menu
+{
+    background:#434343 !important;
+}
+.dropdown-menu > li > a
+{
+    color:#FFF;
+    font-size:18px;
+}
+.dropdown-menu > li > a:hover
+{
+    color:#434343;
+    background:#00a0e9;
+}
+.xerp_drop_down_ul > li > a:hover,
+.dropdown-menu > li > a:not(.xerp_drop_down_a):hover
+{
+    background:#00a0e9 !important;
+}
+.xerp_drop_down_ul
+{
+    padding:0;
+}
+.xerp_drop_down_ul > li,
+.xerp_drop_down_ul > li > a
+{
+    display:block;
+}
+.xerp_drop_down_ul > li > a
+{
+    text-decoration:none;
+}
+.navbar-nav > li.dropdown > a,
+.dropdown-menu > li > a,
+.dropdown-menu > li > a.xerp_drop_down_a
+{
+    transition: background ease 0.35s, color ease 0.3s;
+}

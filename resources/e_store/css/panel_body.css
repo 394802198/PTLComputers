@@ -1,0 +1,56 @@
+/*
+ *		Author: Steven Chen
+ *		Date: Dec 2015
+ */
+
+@media ( min-width:1170px )
+{
+    .panel_body
+    {
+        width:1170px; margin:0 auto;
+    }
+    .panel_body > div:first-child
+    {
+        text-align:right;
+    }
+}
+
+@media ( max-width:1169px )
+{
+    .panel_body
+    {
+        width:100%; margin:0 auto;
+    }
+    .panel_body > div:first-child
+    {
+        text-align:center;
+        padding:0;
+    }
+}
+@media ( min-width: 992px )
+{
+}
+@media ( max-width: 991px )
+{
+
+}
+@media ( max-width: 991px ) and ( min-width:551px )
+{
+}
+
+@media ( min-width:768px )
+{
+    .right-header
+    {
+        text-align:right;
+    }
+}
+@media ( max-width:767px )
+{
+}
+@media ( min-width:551px )
+{
+}
+@media ( max-width:550px )
+{
+}

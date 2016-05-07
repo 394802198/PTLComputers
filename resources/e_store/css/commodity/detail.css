@@ -1,0 +1,115 @@
+/*
+ *		Author: Steven Chen
+ *		Date: Dec 2015
+ */
+
+@media ( min-width: 992px )
+{
+    .main_img_div
+    {
+        text-align:right;
+    }
+    .add_2_favourite_div
+    {
+        text-align:right;
+    }
+}
+@media ( max-width: 991px )
+{
+}
+@media ( min-width:551px )
+{
+    .name
+    {
+        font-size:18px;
+    }
+    .detail_content
+    {
+        font-size:14px;
+    }
+    .main_img
+    {
+        width:300px;
+        height:300px;
+    }
+    .list_img_td
+    {
+        padding-right:2px;
+    }
+    .list_img
+    {
+        height:45px;
+    }
+}
+@media ( max-width:550px )
+{
+    .detail_panel
+    {
+        margin:20px;
+    }
+    .detail_content
+    {
+        font-size:12px;
+    }
+    .name
+    {
+        font-size:12px;
+    }
+    .main_img
+    {
+        width:150px;
+        height:150px;
+    }
+    .list_img
+    {
+        height:25px;
+    }
+}
+
+.name
+{
+    color:#5cb85c; font-weight:bold;
+}
+td.title
+{
+    font-weight:bold;
+    color:#686868;
+}
+td.content_color_b8b8b8
+{
+    color:#b8b8b8;
+}
+td.content_color_f0ad4e
+{
+    color:#f0ad4e;
+}
+td.content_bold_color_f0ad4e
+{
+    font-weight:bold;
+    color:#f0ad4e;
+}
+.stock
+{
+    font-style:oblique;
+}
+.main_img
+{
+    border:1px solid #c8c8c8;
+    border-radius:4px;
+}
+.list_img_li
+{
+    float:left;
+    width:50%;
+}
+.list_img
+{
+    cursor:pointer;
+    border:1px solid #c8c8c8;
+    border-radius:2px;
+    width:100%;
+}
+.selected_img
+{
+    border:3px solid #565656;
+}

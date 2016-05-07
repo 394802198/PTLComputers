@@ -1,0 +1,49 @@
+/*
+ *		Author: Steven Chen
+ *		Date: Mar 2015
+ */
+/* Nav Bar width 750px Settled */
+
+p.page>* {
+	padding:5px 10px;
+	-webkit-transition: background 0.3s ease;	
+}
+p.page>span {
+	padding:0;
+}
+p.page>span>a {
+    padding:5px 10px;
+    color: #428bca;
+    background-color: #fff;
+    border-color: #ccc;
+    -webkit-transition: background 0.3s ease;
+}
+p.page>span>a:hover {
+    color: #428bca;
+    background-color: rgb(230,230,230);
+    border-color: rgb(173,173,173);
+}
+p.page>strong {
+
+    color: #fff;
+    background-color: #357ebd;
+    border-color: #357ebd;
+
+
+    padding: 8px 13px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+
+
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}

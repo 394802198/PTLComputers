@@ -1,0 +1,44 @@
+/*
+ *		Author: Steven Chen
+ *		Date: Mar 2015
+ */
+
+/* CSS Reset */
+ul,li {
+	list-style:none;
+}
+textarea, input {
+	resize:none;
+	outline-color:rgb(100,195,200);
+	border:none;
+}
+body {
+	margin:0; padding:0;
+}
+.container {
+	padding-left:0;
+	padding-right:0;
+}
+
+/* FOOTER */
+.footer-padding {
+	height:50px;
+	background:#FFF;
+}
+footer>div {
+	text-align:center;
+	border-top:solid rgb(134,134,134);
+	background:#FFF;
+}
+footer>div>a {
+	color:rgb(134,134,134);
+}
+footer>div>a:hover {
+	color:rgb(134,134,134);
+	text-decoration:none;
+}
+footer>div>a:link {
+	color:rgb(134,134,134);
+	text-decoration:none;
+}
+

@@ -1,0 +1,42 @@
+/*
+=============================================================================
+SELECT
+=============================================================================
+*/
+
+.fc-select-list-wrapper {position: relative; z-index: 40}
+.fc-select-list-wrapper:hover {z-index: 50}
+.fc-select-list-wrapper.fc-open .fc-select-list,
+.fc-select-list-wrapper.hover-true.css3-transition:hover .fc-select-list {display: block; top: 100%}
+.fc-select-list {display: none; position: absolute; top: 100%; left: 0; width: 100%; background: #2c2c30; }
+ul.fc-select-list {padding: 0; margin: 0; background: #454546; z-index: 41; height: auto }
+ul.fc-select-list li {margin-bottom: 1px; background: #2c2c30; color: white; padding: 10px; list-style: none; cursor: pointer}
+ul.fc-select-list li:hover,
+ul.fc-select-list li.opt-selected {background: #212123}
+ul.fc-select-list li:active {background: black}
+ul.fc-select-list li.opt-selected  {color: #FDBA30}
+
+.fc-select-list-selected {background: white; position: relative; height: 40px; z-index: 41}
+.selected-text
+{
+    float:left;
+    margin:10px 0 0 10px;
+    width: 80%
+}
+span.selected-arrow
+{
+    background: #2c2c30;
+    /*url(../img/arrow-bottom.png) 50% 50% no-repeat;*/
+    width:40px;
+    height:40px;
+    cursor:pointer;
+    display:block;
+    position:absolute;
+    top:0; right:0;
+    text-align:center
+}
+
+
+/* TRANSISIONES */
+.css3-transition ul 
+{-moz-transition: all 0.3s ease-in-out; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; }
